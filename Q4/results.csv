@@ -1,0 +1,24 @@
+﻿run,type,finish_order,elapsed_ms,workers,tasks
+1,finish,"Station-3 > Station-4 > Station-1 > Station-2",,,
+2,finish,"Station-2 > Station-1 > Station-3 > Station-4",,,
+3,finish,"Station-1 > Station-2 > Station-3 > Station-4",,,
+4,finish,"Station-1 > Station-4 > Station-2 > Station-3",,,
+5,finish,"Station-1 > Station-2 > Station-4 > Station-3",,,
+6,finish,"Station-1 > Station-4 > Station-3 > Station-2",,,
+7,finish,"Station-3 > Station-1 > Station-4 > Station-2",,,
+8,finish,"Station-4 > Station-3 > Station-1 > Station-2",,,
+9,finish,"Station-4 > Station-3 > Station-1 > Station-2",,,
+10,finish,"Station-1 > Station-4 > Station-3 > Station-2",,,
+1,executor,,23.929,2,4
+2,executor,,24.117,2,4
+3,executor,,25.063,2,4
+4,executor,,23.178,2,4
+5,executor,,24.445,2,4
+6,executor,,22.404,2,4
+7,executor,,24.189,2,4
+8,executor,,23.411,2,4
+9,executor,,23.054,2,4
+10,executor,,23.621,2,4
+AVERAGE,executor,,23.741,2,4
+MIN,executor,,22.404,2,4
+MAX,executor,,25.063,2,4

@@ -1,0 +1,179 @@
+﻿Run 1 Station-1 created state=NEW
+Run 1 Station-2 created state=NEW
+Run 1 Station-3 created state=NEW
+Run 1 Station-4 created state=NEW
+Station-1 initial state=RUNNABLE
+Station-4 initial state=RUNNABLE
+Station-2 initial state=RUNNABLE
+Run 1 station-1 state after start=RUNNABLE
+Station-3 initial state=RUNNABLE
+Run 1 station-1 during sleep=TIMED_WAITING
+Station-3 finished on Station-3
+Station-4 finished on Station-4
+Station-1 finished on Station-1
+Station-2 finished on Station-2
+Run 1 finish order=Station-3 > Station-4 > Station-1 > Station-2
+Run 1 station-1 after join state=TERMINATED, isAlive=false
+Run 2 Station-1 created state=NEW
+Run 2 Station-2 created state=NEW
+Run 2 Station-3 created state=NEW
+Run 2 Station-4 created state=NEW
+Station-1 initial state=RUNNABLE
+Run 2 station-1 state after start=RUNNABLE
+Run 2 station-1 during sleep=TIMED_WAITING
+Station-2 initial state=RUNNABLE
+Station-3 initial state=RUNNABLE
+Station-4 initial state=RUNNABLE
+Station-2 finished on Station-2
+Station-1 finished on Station-1
+Station-4 finished on Station-4
+Station-3 finished on Station-3
+Run 2 finish order=Station-2 > Station-1 > Station-3 > Station-4
+Run 2 station-1 after join state=TERMINATED, isAlive=false
+Run 3 Station-1 created state=NEW
+Run 3 Station-2 created state=NEW
+Run 3 Station-3 created state=NEW
+Run 3 Station-4 created state=NEW
+Station-1 initial state=RUNNABLE
+Run 3 station-1 state after start=RUNNABLE
+Run 3 station-1 during sleep=TIMED_WAITING
+Station-2 initial state=RUNNABLE
+Station-3 initial state=RUNNABLE
+Station-4 initial state=RUNNABLE
+Station-1 finished on Station-1
+Station-2 finished on Station-2
+Station-3 finished on Station-3
+Station-4 finished on Station-4
+Run 3 finish order=Station-1 > Station-2 > Station-3 > Station-4
+Run 3 station-1 after join state=TERMINATED, isAlive=false
+Run 4 Station-1 created state=NEW
+Run 4 Station-2 created state=NEW
+Run 4 Station-3 created state=NEW
+Run 4 Station-4 created state=NEW
+Station-1 initial state=RUNNABLE
+Run 4 station-1 state after start=TIMED_WAITING
+Run 4 station-1 during sleep=TIMED_WAITING
+Station-2 initial state=RUNNABLE
+Station-3 initial state=RUNNABLE
+Station-4 initial state=RUNNABLE
+Station-4 finished on Station-4
+Station-1 finished on Station-1
+Station-2 finished on Station-2
+Station-3 finished on Station-3
+Run 4 finish order=Station-1 > Station-4 > Station-2 > Station-3
+Run 4 station-1 after join state=TERMINATED, isAlive=false
+Run 5 Station-1 created state=NEW
+Run 5 Station-2 created state=NEW
+Run 5 Station-3 created state=NEW
+Run 5 Station-4 created state=NEW
+Station-1 initial state=RUNNABLE
+Station-2 initial state=RUNNABLE
+Run 5 station-1 state after start=RUNNABLE
+Station-3 initial state=RUNNABLE
+Run 5 station-1 during sleep=TIMED_WAITING
+Station-4 initial state=RUNNABLE
+Station-1 finished on Station-1
+Station-2 finished on Station-2
+Station-4 finished on Station-4
+Station-3 finished on Station-3
+Run 5 finish order=Station-1 > Station-2 > Station-4 > Station-3
+Run 5 station-1 after join state=TERMINATED, isAlive=false
+Run 6 Station-1 created state=NEW
+Run 6 Station-2 created state=NEW
+Run 6 Station-3 created state=NEW
+Station-1 initial state=RUNNABLE
+Station-2 initial state=RUNNABLE
+Run 6 Station-4 created state=NEW
+Station-3 initial state=RUNNABLE
+Run 6 station-1 state after start=RUNNABLE
+Run 6 station-1 during sleep=TIMED_WAITING
+Station-4 initial state=RUNNABLE
+Station-1 finished on Station-1
+Station-4 finished on Station-4
+Station-3 finished on Station-3
+Station-2 finished on Station-2
+Run 6 finish order=Station-1 > Station-4 > Station-3 > Station-2
+Run 6 station-1 after join state=TERMINATED, isAlive=false
+Run 7 Station-1 created state=NEW
+Run 7 Station-2 created state=NEW
+Run 7 Station-3 created state=NEW
+Station-1 initial state=RUNNABLE
+Station-2 initial state=RUNNABLE
+Run 7 Station-4 created state=NEW
+Run 7 station-1 state after start=TIMED_WAITING
+Station-3 initial state=RUNNABLE
+Run 7 station-1 during sleep=TIMED_WAITING
+Station-4 initial state=RUNNABLE
+Station-3 finished on Station-3
+Station-1 finished on Station-1
+Station-4 finished on Station-4
+Station-2 finished on Station-2
+Run 7 finish order=Station-3 > Station-1 > Station-4 > Station-2
+Run 7 station-1 after join state=TERMINATED, isAlive=false
+Run 8 Station-1 created state=NEW
+Run 8 Station-2 created state=NEW
+Run 8 Station-3 created state=NEW
+Run 8 Station-4 created state=NEW
+Run 8 station-1 state after start=RUNNABLE
+Station-1 initial state=RUNNABLE
+Run 8 station-1 during sleep=TIMED_WAITING
+Station-2 initial state=RUNNABLE
+Station-4 initial state=RUNNABLE
+Station-3 initial state=RUNNABLE
+Station-4 finished on Station-4
+Station-3 finished on Station-3
+Station-1 finished on Station-1
+Station-2 finished on Station-2
+Run 8 finish order=Station-4 > Station-3 > Station-1 > Station-2
+Run 8 station-1 after join state=TERMINATED, isAlive=false
+Run 9 Station-1 created state=NEW
+Run 9 Station-2 created state=NEW
+Run 9 Station-3 created state=NEW
+Run 9 Station-4 created state=NEW
+Run 9 station-1 state after start=RUNNABLE
+Station-1 initial state=RUNNABLE
+Station-2 initial state=RUNNABLE
+Station-4 initial state=RUNNABLE
+Station-3 initial state=RUNNABLE
+Run 9 station-1 during sleep=TIMED_WAITING
+Station-4 finished on Station-4
+Station-3 finished on Station-3
+Station-1 finished on Station-1
+Station-2 finished on Station-2
+Run 9 finish order=Station-4 > Station-3 > Station-1 > Station-2
+Run 9 station-1 after join state=TERMINATED, isAlive=false
+Run 10 Station-1 created state=NEW
+Run 10 Station-2 created state=NEW
+Run 10 Station-3 created state=NEW
+Station-1 initial state=RUNNABLE
+Run 10 Station-4 created state=NEW
+Run 10 station-1 state after start=TIMED_WAITING
+Run 10 station-1 during sleep=TIMED_WAITING
+Station-2 initial state=RUNNABLE
+Station-3 initial state=RUNNABLE
+Station-4 initial state=RUNNABLE
+Station-1 finished on Station-1
+Station-4 finished on Station-4
+Station-3 finished on Station-3
+Station-2 finished on Station-2
+Run 10 finish order=Station-1 > Station-4 > Station-3 > Station-2
+Run 10 station-1 after join state=TERMINATED, isAlive=false
+Calling run() directly executes on main
+Daemon flag=true; main does not join daemon
+Executor benchmark after 2 warmups (two workers, four tasks)
+run,elapsed_ms,workers,tasks
+Daemon finished before main
+1,23.929,2,4
+2,24.117,2,4
+3,25.063,2,4
+4,23.178,2,4
+5,24.445,2,4
+6,22.404,2,4
+7,24.189,2,4
+8,23.411,2,4
+9,23.054,2,4
+10,23.621,2,4
+AVERAGE,23.741,2,4
+MIN,22.404,2,4
+MAX,25.063,2,4
+
