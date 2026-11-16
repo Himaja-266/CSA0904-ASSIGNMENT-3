@@ -1,0 +1,4 @@
+Q1\compiler-demo\BadCatchOrder.java:9: error: exception IOException has already been caught
+        } catch (IOException narrow) {
+          ^
+1 error

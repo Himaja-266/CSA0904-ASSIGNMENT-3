@@ -1,0 +1,4 @@
+﻿Exception in thread "main" java.lang.IllegalStateException: simulated unrecoverable card-reader state
+	at AtmDemo.uncaughtExample(AtmDemo.java:38)
+	at AtmDemo.main(AtmDemo.java:99)
+
