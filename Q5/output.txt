@@ -1,0 +1,30 @@
+﻿Unsynchronized seats sold over 10 runs (10 seats, 8 contenders):
+Run 1: 73
+Run 2: 77
+Run 3: 78
+Run 4: 79
+Run 5: 80
+Run 6: 78
+Run 7: 80
+Run 8: 80
+Run 9: 79
+Run 10: 79
+Synchronized method result:
+Seats sold: 10
+Synchronized block result:
+Seats sold: 10
+Benchmark after warmup (elapsed ns for 10,000 attempts; 10 measured rounds)
+round,unsynchronized_ns,whole_method_ns,critical_section_ns,atomic_boolean_ns,reentrant_lock_ns,put_if_absent_ns
+1,15601400,3281100,1267800,1233400,2309200,3721100
+2,13373900,3053400,951500,1036500,1822000,1594800
+3,15436400,2975300,984800,945900,1494000,737000
+4,17498100,3752800,1894700,4007300,4795100,1400900
+5,13844300,3970000,729100,2008700,1891500,1400100
+6,14329500,2380200,1065900,837300,1173600,1197200
+7,14570300,2565600,947100,718100,773700,1206700
+8,14579500,2404500,1113500,817400,974800,839800
+9,15233900,3079800,1203300,1048600,1084500,871100
+10,17143400,3179100,873000,846400,1113300,757300
+20 screens: use one lock per screen so unrelated screens proceed independently.
+AtomicBoolean provides per-seat CAS; ReentrantLock permits timed acquisition; putIfAbsent suits a concurrent seat-key map.
+
