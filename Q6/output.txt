@@ -1,0 +1,35 @@
+﻿Deadlock detected by ThreadMXBean: true
+Deadlocked thread: A-to-B
+Deadlocked thread: B-to-A
+Ordered transfer balances total=200
+buffer size=4
+buffer size=3
+buffer size=2
+buffer size=1
+buffer size=0
+buffer size=4
+buffer size=3
+buffer size=2
+buffer size=1
+buffer size=2
+buffer size=1
+buffer size=0
+buffer size=4
+buffer size=3
+buffer size=2
+buffer size=1
+buffer size=0
+buffer size=2
+buffer size=1
+buffer size=0
+Sum of tokens collected: 210
+Unsafe if run 1 after one token wakes two consumers: count=-1 (invalid)
+Unsafe if run 2 after one token wakes two consumers: count=-1 (invalid)
+Unsafe if run 3 after one token wakes two consumers: count=-1 (invalid)
+Unsafe if run 4 after one token wakes two consumers: count=-1 (invalid)
+Unsafe if run 5 after one token wakes two consumers: count=-1 (invalid)
+ArrayBlockingQueue sum: 210
+Timed tryLock transfer balances total=200
+ArrayBlockingQueue capacity=5; timed tryLock is used for transfers.
+wait releases the monitor; sleep does not. A wait condition must be checked in a loop.
+

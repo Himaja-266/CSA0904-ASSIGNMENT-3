@@ -1,0 +1,9 @@
+﻿check,observed
+threadmxbean_deadlock_detected,true
+deadlocked_threads,2
+ordered_transfer_total_balance,200
+token_sum,210
+unsafe_if_runs,5
+unsafe_if_count_each,-1
+arrayblockingqueue_sum,210
+timed_trylock_total_balance,200
