@@ -1,0 +1,30 @@
+﻿Manual total=200; try-with-resources total=200
+Reports identical: true
+Nov 16, 2026 1:18:40 PM ReportDemo parse
+WARNING: Invalid sales in file bad.csv
+java.lang.NumberFormatException: For input string: "not-a-number"
+	at java.base/java.lang.NumberFormatException.forInputString(NumberFormatException.java:67)
+	at java.base/java.lang.Integer.parseInt(Integer.java:529)
+	at java.base/java.lang.Integer.parseInt(Integer.java:626)
+	at ReportDemo.parse(ReportDemo.java:42)
+	at ReportDemo.manualClose(ReportDemo.java:71)
+	at ReportDemo.main(ReportDemo.java:95)
+
+Manual failure: Invalid sales in bad.csv
+Manual failing run opened=2, closed=0
+Nov 16, 2026 1:18:40 PM ReportDemo parse
+WARNING: Invalid sales in file bad.csv
+java.lang.NumberFormatException: For input string: "not-a-number"
+	at java.base/java.lang.NumberFormatException.forInputString(NumberFormatException.java:67)
+	at java.base/java.lang.Integer.parseInt(Integer.java:529)
+	at java.base/java.lang.Integer.parseInt(Integer.java:626)
+	at ReportDemo.parse(ReportDemo.java:42)
+	at ReportDemo.tryWithResources(ReportDemo.java:55)
+	at ReportDemo.main(ReportDemo.java:99)
+
+TWR failure: Invalid sales in bad.csv
+TWR failing run opened=2, closed=2
+Primary failure: processing failed
+Suppressed failure: close also failed
+The no-finally leak is an intentional controlled demonstration; normal manual mode uses finallyClose=true.
+

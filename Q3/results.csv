@@ -1,0 +1,4 @@
+﻿version,opened,closed,leaked,report_identical
+manual_failure,2,0,2,not-applicable
+try_with_resources_failure,2,2,0,not-applicable
+good_reports,2,2,0,true
